@@ -5,6 +5,7 @@
 Clone the Repo to your prefered directory. 
 On your terrminal, run `cd Twilio-Whatsapp-Php` then 
 run `composer install` to install project dependancies.
+
 Rename file `.env.example` to `.env` file and add the following keys after obtaining the relevant values from your twilio dashboard
 ```
 TWILIO_SID=your_twilio_sid
