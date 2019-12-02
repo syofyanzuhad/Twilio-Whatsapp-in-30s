@@ -13,10 +13,10 @@ $twilioToken  = getenv('TWILIO_TOKEN');
 $twilio = new Client($twilioSid, $twilioToken);
 
 $message = $twilio->messages
-                  ->create(
-                      "whatsapp:+254712345678",
-                      array(
-                               "body" => "Greetings from Twilio :-)",
-                               "from" => "whatsapp:+14155238886"
-                           )
-                  );
+                    ->create(
+                        "whatsapp:+6281326743694",
+                        array(
+                                "body" => "Greetings from Twilio :-)",
+                                "from" => "whatsapp:+14155238886"
+                            )
+                    );
